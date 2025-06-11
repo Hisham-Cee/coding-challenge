@@ -198,3 +198,4 @@ function calcArrayAverage(arr) {
 
 console.log("Average Total:", calcArrayAverage(totals));
 
+
