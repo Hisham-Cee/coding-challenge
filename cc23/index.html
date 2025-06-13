@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Electric Car (EV) Challenge</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>⚡ Electric Car Simulation</h1>
+
+    <div class="car-buttons">
+      <h2>Tesla</h2>
+      <button onclick="tesla.accelerate()">Accelerate</button>
+      <button onclick="tesla.brake()">Brake</button>
+      <button onclick="tesla.chargeBattery(90)">Charge to 90%</button>
+      <button onclick="showStatus()">Show Status</button>
+    </div>
+
+    <pre id="output"></pre>
+
+    <script src="script.js"></script>
+  </body>
+</html>
