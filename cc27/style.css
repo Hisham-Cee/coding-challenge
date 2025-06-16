@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+  background-color: #111;
+  color: white;
+  text-align: center;
+}
+
+.images {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+img {
+  max-width: 300px;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+img.parallel {
+  border-color: limegreen;
+}
